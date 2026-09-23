@@ -1,0 +1,5 @@
+# Cloudflare Pages: clean URLs like /the-yummy-place/ serve the shared
+# template. Static files (style.css, app.js, /cafes/**) still resolve
+# directly — Pages serves existing assets before applying this rewrite.
+# New cafes need NO changes here; the splat covers every folder name.
+/*    /index.html   200
